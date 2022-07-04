@@ -1,0 +1,76 @@
+/* Offcanvas styling*/
+.offcanvas {
+    background-color: #252323;
+}
+.offcanvas-header {
+    border-bottom: 1px solid #000;
+    color: white;
+}
+.offcanvas-header .btn-close {
+    background: transparent url('../../../public/cross-icon.png') center/1em auto no-repeat;
+}
+
+.header {
+    gap: 10px; 
+    color: #fff;
+}
+.offcanvas-body {
+    padding: 0;
+}
+.offcanvas-header {
+    border-bottom: 1px solid #000;
+}
+.list-group-flush>.list-group-item {
+    padding: 15px 30px;
+    background-color: #252323;
+    color: white;
+    font-weight: 600;
+}
+.list-group-item.active {
+    background-color: #2c72db;
+    border-color: #b5c2d6;
+}
+.list-group-item:hover {
+    background-color: #2c72db;
+    border-color: #2c72db;
+    color: white;
+}
+/* Card styling*/
+.spinner-grow {
+    width: 4rem;
+    height: 4rem;
+}
+.card-wrapper{
+    gap:20px;
+}
+.card {
+    width: 20rem;
+    height: 27rem;
+}
+.card-image {
+    min-width: 318px;
+    padding: 2px;
+    min-height: 275px;
+}
+.card-title {
+    font-size: 16px;
+}
+.badge {
+    display: flex;
+    gap: 5px;
+    font-size: 13px;
+}
+.star-icon {
+    font-size: 10px;
+    margin: auto;
+}
+.card-text {
+    margin-top: 14px;
+}
+.card-desc {
+    line-height: 1.3;
+    color: #282c3f73;
+    width: 70%;
+    letter-spacing: -.3px;
+    font-size: 0.9rem;
+}

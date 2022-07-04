@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-section {
+    background: url('../../../public/profile.jpg') no-repeat left;
+    background-size: 55%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-container {
+    width: 45%;
+    float: right;
+    background-color: white;
+    padding: 80px 120px;
+    margin-right: 5%;
+}
+.inner-container h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.inner-container p {
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.inner-container button {
+    background-color: #f9004d;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.inner-container button:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    color: black;
+}

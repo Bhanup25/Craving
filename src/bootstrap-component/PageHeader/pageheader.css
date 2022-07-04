@@ -1,0 +1,110 @@
+/* Cart Styling*/
+.cart-basket {
+    color: white;
+    font-size: 22px;
+    transform: scaleX(-1);
+}
+.cart-count {
+    font-size: .8rem;
+    position: absolute;
+    top: -13px;
+    right: 4px;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    background-color: #418deb;
+    border-radius: 50%;
+    font-weight: 700;
+}
+/*Popover styling*/
+.popover {
+    width:425px;
+    max-height:500px;
+    max-width:none;
+  }
+.popover-body {
+    background-color: #f9f5f7;
+    border-radius: 5px;
+    height: 100%;
+    padding: 0;
+}
+.popover-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height:375px;
+    overflow-y: auto;
+    padding: 1rem 1rem 0;
+}
+.pop-body {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+    padding-bottom: 15px;
+}
+.no-data{
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop-body .specification {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.image img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.detail h3{
+    font-size: 20px;
+}
+.detail p {
+    font-size: 13px;
+    color: gray;
+}
+.total-detail h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+}
+.popover-footer {
+    padding: 1rem;
+    background-color: #e5e5e5;
+    height: 25%;
+}
+.popover-footer .btn{
+    width: 100%;
+    background: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #0d6efd;
+    margin-top: 10px;
+}
+.popover-footer .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Navbar Styling*/
+.navbar-brand label {
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-item-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+.nav-link a {
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+}
+.nav-link a:hover {
+    color: white;
+}
+.nav-link a:active {
+    color: white;
+}

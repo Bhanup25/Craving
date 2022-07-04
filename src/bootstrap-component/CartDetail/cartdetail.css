@@ -1,0 +1,39 @@
+/* Table styling */
+.table {
+    background-color: white;
+    vertical-align: middle;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20px 10px;
+}
+.table>:not(:first-child) {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.table th {
+    background: #eee;
+    padding: 25px 10px;
+}
+.table th:nth-child(1) {
+    padding-left: 50px;
+}
+.table td:nth-child(1) {
+    padding-left: 50px;
+}
+.table td {
+    padding: 10px;
+}
+.table-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.table .rupeeIcon {
+    font-size: 20px;
+    color: #31a731;
+}
+.table .editIcon {
+    color: brown;
+}
+.table .deleteIcon {
+    color: blue;
+}

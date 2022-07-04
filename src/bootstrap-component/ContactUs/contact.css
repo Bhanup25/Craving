@@ -1,0 +1,90 @@
+.contact{
+    width: 100%;
+    position: relative;
+    padding: 20px 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: -20px 0 -50px;
+    background: linear-gradient(to bottom,  rgb(25 25 24 / 70%), rgb(25 25 24 / 70%)),url('../../../public/buildingback.webp') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.contact-heading {
+    max-width: 800px;
+    text-align: center;
+}
+.contact-heading h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact-heading p {
+    font-weight: 300;
+    color: #fff;
+}
+.contact-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.contact-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contact-info .item {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.contact-info .item .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.contact-info .item .text {
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.contact-info .item .text h3{
+    font-size: 500;
+    color: #00bcd4;
+}
+.contact-form {
+    width: 50%;
+    padding: 40px;
+    background-color: #fff;
+}
+.contact-form h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-form .form-set {
+    margin: 10px 0;
+}
+.contact-form .btn {
+    width: 100px;
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+    margin: auto;
+}
