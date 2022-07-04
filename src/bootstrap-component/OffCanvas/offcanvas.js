@@ -100,7 +100,7 @@ function DishDetail(props) {
                             {
                                 props.category.map(data =>
                                     <Card key={data.itemName}>
-                                        <Card.Img variant='top' src={data.imgPath} className='card-image' />
+                                        <Card.Img variant='top' src={require(`../../images/${data.imgPath}`)} className='card-image' />
                                         <Card.Body>
                                             <Card.Title className='d-flex flex-row justify-content-between'>
                                                 {data.itemName}

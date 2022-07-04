@@ -17,7 +17,7 @@ export default function PageHeader(props) {
                                         <div className="pop-body">
                                             <div className="specification">
                                                 <div className="image">
-                                                    <img src={data.imgPath} />
+                                                    <img src={require(`../../images/${data.imgPath}`)} />
                                                 </div>
                                                 <div className="detail">
                                                     <h3>{data.itemName}</h3>
@@ -57,7 +57,7 @@ export default function PageHeader(props) {
             <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
                 <Container className="">
                     <Navbar.Brand href="#home" className='d-flex flex-column align-items-center'>
-                        <img src="food-logo.png" width="30" height="30" className="d-inline-block me-2"
+                        <img src={require('../../images/food-logo.png')} width="30" height="30" className="d-inline-block me-2"
                             alt="logo" />
                         <label>Food Crave</label>
                     </Navbar.Brand>
