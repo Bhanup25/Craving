@@ -22,8 +22,8 @@ export default function CartDetail(props) {
                     </thead>
                     <tbody>
                         {
-                            location.state.data.map(data =>
-                                <tr>
+                            location.state.data.map((data, index) =>
+                                <tr key={index}>
                                     <td><img src={require(`../../images/${data.imgPath}`)} className='table-img' /></td>
                                     <td>{data.itemName}</td>
                                     <td><FaRupeeSign className='rupeeIcon' />{data.cost}</td>

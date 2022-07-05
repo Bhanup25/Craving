@@ -1,6 +1,6 @@
 import { Button, Container, Nav, Navbar, OverlayTrigger, Popover } from 'react-bootstrap';
 import { FaAddressBook, FaHome, FaInfoCircle, FaListAlt, FaRupeeSign, FaShoppingCart } from 'react-icons/fa';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './pageheader.css';
 
 export default function PageHeader(props) {
@@ -13,8 +13,8 @@ export default function PageHeader(props) {
                         <>
                             <div className="popover-content">
                                 {
-                                    props.item.map(data =>
-                                        <div className="pop-body">
+                                    props.item.map((data,index) =>
+                                        <div className="pop-body" key={index}>
                                             <div className="specification">
                                                 <div className="image">
                                                     <img src={require(`../../images/${data.imgPath}`)} />
@@ -38,7 +38,7 @@ export default function PageHeader(props) {
                                     </h3>
                                 </div>
                                 <Button>
-                                    <NavLink to="/cart" state={{ data: props.item }}>View Cart</NavLink>
+                                    <Link to="/Craving/cart" state={{ data: props.item }}>View Cart</Link>
                                 </Button>
                             </div>
                         </> :
@@ -64,25 +64,17 @@ export default function PageHeader(props) {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="container-fluid justify-content-betweenl">
                         <Nav className="me-auto ms-3 pe-4">
-                            <Nav.Link>
-                                <NavLink to="/" className="mx-3 d-flex justify-content-center align-items-center">
+                            <Nav.Link as={Link} to="/Craving" className="mx-3 d-flex justify-content-center align-items-center">
                                     <FaHome className="nav-item-icon" /><span>Home</span>
-                                </NavLink>
                             </Nav.Link>
-                            <Nav.Link>
-                                <NavLink to="/about" className="mx-3 d-flex justify-content-center align-items-center">
+                            <Nav.Link as={Link} to="/Craving/about" className="mx-3 d-flex justify-content-center align-items-center">
                                     <FaInfoCircle className="nav-item-icon" /><span>About</span>
-                                </NavLink>
                             </Nav.Link>
-                            <Nav.Link>
-                                <NavLink to="/category" className="mx-3 d-flex justify-content-center align-items-center">
+                            <Nav.Link as={Link} to="/Craving/category" className="mx-3 d-flex justify-content-center align-items-center">
                                     <FaListAlt className="nav-item-icon" /><span>Category</span>
-                                </NavLink>
                             </Nav.Link>
-                            <Nav.Link>
-                                <NavLink to="/contact" className="mx-3 d-flex justify-content-center align-items-center">
+                            <Nav.Link as={Link} to="/Craving/contact" className="mx-3 d-flex justify-content-center align-items-center">
                                     <FaAddressBook className="nav-item-icon" /><span>Contact</span>
-                                </NavLink>
                             </Nav.Link>
                         </Nav>
                         <OverlayTrigger trigger="click" key="right" placement="bottom" overlay={popover} rootClose>

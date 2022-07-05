@@ -19,11 +19,11 @@ function App() {
         <PageHeader item={item}/>
         <div className='content-router'>
         <Routes>
-          <Route path="/" element={<Carousels />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/category" element={<OffCanvasTrial item={item} setItem={setItem}/>}></Route>
-          <Route path="/cart" element={<CartDetail />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/Craving" element={<Carousels />}></Route>
+          <Route path="/Craving/about" element={<About />}></Route>
+          <Route path="/Craving/category" element={<OffCanvasTrial item={item} setItem={setItem}/>}></Route>
+          <Route path="/Craving/cart" element={<CartDetail />}></Route>
+          <Route path="/Craving/contact" element={<Contact />}></Route>
         </Routes>
         </div>
         <PageFooter />
