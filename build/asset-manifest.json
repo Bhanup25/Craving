@@ -1,17 +1,33 @@
 {
   "files": {
     "main.css": "/Craving/static/css/main.0323fd76.css",
-    "main.js": "/Craving/static/js/main.a693901b.js",
+    "main.js": "/Craving/static/js/main.8b557aa7.js",
     "static/js/787.dfc1b46d.chunk.js": "/Craving/static/js/787.dfc1b46d.chunk.js",
+    "static/media/wall3.jpg": "/Craving/static/media/wall3.b812ba917d03ac9b211d.jpg",
     "static/media/buildingback.webp": "/Craving/static/media/buildingback.5bc4fee854967d751224.webp",
+    "static/media/food-logo.png": "/Craving/static/media/food-logo.83c14c1d652580edb66a.png",
+    "static/media/wall1.jpg": "/Craving/static/media/wall1.51aab515511ed325d99f.jpg",
+    "static/media/wall2.jpg": "/Craving/static/media/wall2.3d9b05961859a237a0d8.jpg",
     "static/media/profile.jpg": "/Craving/static/media/profile.e2688d033e51db060e37.jpg",
+    "static/media/chole-bhature.jpg": "/Craving/static/media/chole-bhature.a909907de6fcadf15fba.jpg",
+    "static/media/daal-makhni.jpg": "/Craving/static/media/daal-makhni.2de4323ee52c56653d43.jpg",
+    "static/media/chicken-biryani.jpg": "/Craving/static/media/chicken-biryani.df8cf22b23ae0cffb8c8.jpg",
+    "static/media/chicken-curry.jpg": "/Craving/static/media/chicken-curry.616c8bbababd38bedcc2.jpg",
+    "static/media/butter-paneer.jpg": "/Craving/static/media/butter-paneer.79ed9e996f31fdf09817.jpg",
+    "static/media/hyderabadi-biryani.jpg": "/Craving/static/media/hyderabadi-biryani.6c479be609269ea0f730.jpg",
+    "static/media/veg-noodle.webp": "/Craving/static/media/veg-noodle.301e56c700e7069d4726.webp",
+    "static/media/tomato-rice.webp": "/Craving/static/media/tomato-rice.1eb62cf13af15bd9e4aa.webp",
+    "static/media/garlic-mushroom.webp": "/Craving/static/media/garlic-mushroom.13beaa28323908ad549c.webp",
+    "static/media/dosa.jpg": "/Craving/static/media/dosa.c01223141947356252fc.jpg",
+    "static/media/baby-corn.webp": "/Craving/static/media/baby-corn.185e70cb4131ec5b331c.webp",
+    "static/media/idli-recipe.webp": "/Craving/static/media/idli-recipe.06c04eee40cc1d29f6a4.webp",
     "index.html": "/Craving/index.html",
     "main.0323fd76.css.map": "/Craving/static/css/main.0323fd76.css.map",
-    "main.a693901b.js.map": "/Craving/static/js/main.a693901b.js.map",
+    "main.8b557aa7.js.map": "/Craving/static/js/main.8b557aa7.js.map",
     "787.dfc1b46d.chunk.js.map": "/Craving/static/js/787.dfc1b46d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0323fd76.css",
-    "static/js/main.a693901b.js"
+    "static/js/main.8b557aa7.js"
   ]
 }
